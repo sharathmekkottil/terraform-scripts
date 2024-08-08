@@ -148,6 +148,3 @@ WHERE city_id = 10;
 
 Partitioning the `job_vacancies` table by `city_id` significantly improves performance for queries that filter or aggregate data based on city. By reducing the amount of data scanned, partitioning optimizes query execution time and enhances overall efficiency. For large datasets with similar query patterns, partitioning by key columns like `city_id` is a highly effective strategy.
 
----
-
-Feel free to modify or expand on this as needed for your specific requirements!
